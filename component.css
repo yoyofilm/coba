@@ -82,14 +82,14 @@ line-height: 3em;
 }
 
 .cbp-hsmenu > li.cbp-hsitem-open > a:not(:only-child):before {
-	content: " \f107";
+	content: " \f000";
 }
 
 /* Add a triangle to currently open menu item link */
 .cbp-hsmenu > li.cbp-hsitem-open > a:after {
 	top: 100%;
 	border: solid transparent;
-	content: "\f106 ";
+	content: "\f000 ";
 	height: 0;
 	width: 0;
 	position: absolute;
