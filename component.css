@@ -11,7 +11,7 @@
 
 /* Main menu wrapper */
 .cbp-hsmenu-wrapper {
-	position: fixed;
+	position: relative;
 }
 
 /* Common style for all lists */
