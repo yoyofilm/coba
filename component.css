@@ -81,25 +81,6 @@ line-height: 3em;
 	vertical-align: middle;
 }
 
-.cbp-hsmenu > li.cbp-hsitem-open > a:not(:only-child):before {
-	content: " ";
-}
-
-/* Add a triangle to currently open menu item link */
-.cbp-hsmenu > li.cbp-hsitem-open > a:after {
-	top: 100%;
-	border: solid transparent;
-	content: " ";
-	height: 0;
-	width: 0;
-	position: absolute;
-	pointer-events: none;
-	border-color: transparent;
-	border-top-color: #c41111;
-	border-width: 10px;
-	left: 50%;
-	margin-left: -10px;
-}
 
 /* Submenu style */
 .cbp-hssubmenu {
