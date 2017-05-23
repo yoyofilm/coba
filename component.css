@@ -33,7 +33,7 @@
 	width: 90%;
 	max-width: 69em;
 	margin: 0 auto;
-	padding: 0 1.875em;
+	padding: 1 1.875em;
 }
 
 .cbp-hsmenu > li {
@@ -52,7 +52,7 @@
 font-weight: bold;
 line-height: 3em;
 	display: inline-block;
-	position: fixed;
+	position: relative;
 	z-index: 10000;
 	outline: none;
 }
