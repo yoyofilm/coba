@@ -48,11 +48,11 @@
 /* Main menu link style */
 .cbp-hsmenu > li > a {
 	color: #fff;
-	font-size: 2em;
+	font-size: 1.8em;
 font-weight: bold;
 line-height: 3em;
 	display: inline-block;
-	position: relative;
+	position: fixed;
 	z-index: 10000;
 	outline: none;
 }
