@@ -1,34 +1,14 @@
 @font-face {
 	font-family: 'bpmenu';
-	src:url('../fonts/bpmenu/bpmenu.eot');
-	src:url('../fonts/bpmenu/bpmenu.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/bpmenu/bpmenu.woff') format('woff'),
-		url('../fonts/bpmenu/bpmenu.ttf') format('truetype'),
-		url('../fonts/bpmenu/bpmenu.svg#bpmenu') format('svg');
+	src:url('https://rawgit.com/codrops/HorizontalSlideOutMenu/master/fonts/bpmenu/bpmenu.eot');
+	src:url('https://rawgit.com/codrops/HorizontalSlideOutMenu/master/fonts/bpmenu/bpmenu.eot?#iefix') format('embedded-opentype'),
+		url('https://rawgit.com/codrops/HorizontalSlideOutMenu/master/fonts/bpmenu/bpmenu.woff') format('woff'),
+		url('https://rawgit.com/codrops/HorizontalSlideOutMenu/master/fonts/bpmenu/bpmenu.ttf') format('truetype'),
+		url('https://rawgit.com/codrops/HorizontalSlideOutMenu/master/fonts/bpmenu/bpmenu.svg#bpmenu') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
-.element {
-    position: relative;
-}
- 
-/*replace the content value with the
-corresponding value from the list below*/
- 
-.element:before {
-    content: "\f000";
-    font-family: FontAwesome;
-    font-style: normal;
-    font-weight: normal;
-    text-decoration: inherit;
-/*--adjust as necessary--*/
-    color: #000;
-    font-size: 18px;
-    padding-right: 0.5em;
-    position: absolute;
-    top: 10px;
-    left: 0;
-}
+
 /* Main menu wrapper */
 .cbp-hsmenu-wrapper {
 	position: relative;
@@ -102,14 +82,14 @@ line-height: 3em;
 }
 
 .cbp-hsmenu > li.cbp-hsitem-open > a:not(:only-child):before {
-	content: " \f000";
+	content: " \f107";
 }
 
 /* Add a triangle to currently open menu item link */
 .cbp-hsmenu > li.cbp-hsitem-open > a:after {
 	top: 100%;
 	border: solid transparent;
-	content: "\f000 ";
+	content: "\f106 ";
 	height: 0;
 	width: 0;
 	position: absolute;
