@@ -1,3 +1,5 @@
+* General Blueprint Style */
+@import url(//fonts.googleapis.com/css?family=Lato:300,400,700);
 @font-face {
 	font-family: 'bpmenu';
 	src:url('https://tympanus.net/Blueprints/HorizontalSlideOutMenu/fonts/bpmenu/bpmenu.eot');
